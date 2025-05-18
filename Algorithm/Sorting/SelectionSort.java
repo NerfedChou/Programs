@@ -1,4 +1,5 @@
-
+//Please enter the commit message for your changes. Lines starting
+package Algorithm.Sorting;
 
 public class SelectionSort {
     public static void selectionSort(int arr[]) {
