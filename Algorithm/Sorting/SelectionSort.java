@@ -1,4 +1,4 @@
-//Please enter the commit message for your changes. Lines starting
+
 package Algorithm.Sorting;
 
 public class SelectionSort {
