@@ -34,12 +34,12 @@ public class Main {
     }
     public static void main(String[] args) {
         int arr[] = {64, 25, 12, 22, 11};
-        System.out.println(arr);
+        printArray(arr);
         selectionSort(arr);
         System.out.println("Sorted array");
         printArray(arr);
         int arr2[] = {64, 10, 114, 23, 11};
-        System.out.println(arr2);
+        printArray(arr2);
         System.out.println("Sorted array");
         bubbleSort(arr2);
         printArray(arr2);
