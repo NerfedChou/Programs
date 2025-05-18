@@ -13,6 +13,7 @@ public class BubbleSort {
             }
         }
     }
+    // This function prints the array
 
     public static void printArray(int arr[]) {
         int n = arr.length;
