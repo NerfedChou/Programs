@@ -39,6 +39,6 @@ public class Main {
         printArray(arr);
         int arr2[] = {64, 25, 12, 22, 11};
         System.out.println("Sorted array");
-        bubbleSort(arr2);
+        bubbleSort(arr2); 
     }
 }
