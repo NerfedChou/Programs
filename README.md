@@ -11,6 +11,10 @@ This repository might be usefull soon or maybe not but who knows maybe I cann pu
 What I leanred on school is nothing but to pass the exam. Theres no holy grail its just me that realize having a teacher is a second option
 to be exactly as it is.
 
-Take new Highs and lows dont smoke weed but cigarrets lmao lick my ass stupid.
+Take new Highs and lows dont smoke weed but cigarrets.
 
-Hello World!
+#Purpose 
+
+On this Repository I dont intend to leak or promote laziness but to help others I need. The problem is when everything gets easier the more
+the person meets the qualifications of being stubborn. This repository serve as the ground of reliable codes throught out the lessons of our 
+school.
