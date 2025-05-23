@@ -12,3 +12,5 @@ What I leanred on school is nothing but to pass the exam. Theres no holy grail i
 to be exactly as it is.
 
 Take new Highs and lows dont smoke weed but cigarrets lmao lick my ass stupid.
+
+Hello World
