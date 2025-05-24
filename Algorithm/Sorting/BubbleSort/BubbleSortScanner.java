@@ -12,10 +12,8 @@ public class BubbleSortScanner {
                     arr[j] = arr[j + 1];
                     arr[j + 1]  = temp;
                 }
-
             }
         }
-
     }
 
     public static int[] Input() {
@@ -28,7 +26,7 @@ public class BubbleSortScanner {
         do {
             System.out.println("Enter value");
             int val = s.nextInt();
-            arr[i] = val; // store input at index i
+            arr[i] = val;  
             i++;
         } while (i < size);
         s.close();
