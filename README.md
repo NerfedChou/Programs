@@ -13,7 +13,7 @@ to be exactly as it is.
 
 Take new Highs and lows dont smoke weed but cigarrets.
 
-#Purpose 
+# Purpose 
 
 On this Repository I dont intend to leak or promote laziness but to help others I need. The problem is when everything gets easier the more
 the person meets the qualifications of being stubborn. This repository serve as the ground of reliable codes throught out the lessons of our 
