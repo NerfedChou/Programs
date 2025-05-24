@@ -6,7 +6,7 @@ public class BubbleSort {
         int n = arr.length;
         int max = n - 1;
         for (int i = 0; i < max; i++) { 
-            for (int j = i; j < max ; j++) { //Loop through the array
+            for (int j = 0; j < max  - i; j++) { //Loop through the array
                 if (arr[j] > arr[j + 1]) {//Swap if the element found is greater than the next element
                     int temp = arr[j]; // Place the value
                     arr[j] = arr[j + 1]; //Swap the value

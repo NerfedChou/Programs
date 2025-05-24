@@ -3,8 +3,14 @@ package Algorithm.Sorting;
 public class CountingSort {
    
     // Function to perform counting sort
-    public static void countingSort(int arr[], int range) {
+    public static void countingSort(int arr[]) {
         int n = arr.length;
+        int range = arr[0];
+        for (int i = 1; i < n ; i++) {
+            if(arr[i] > range) {
+                range = arr[i];
+            }
+        }
         int output[] = new int[n]; // output array
         int count[] = new int[range + 1]; // count array
 
@@ -38,11 +44,10 @@ public class CountingSort {
         System.out.println();
     }
     public static void main(String args[]) {
-        int arr[] = {4, 2, 2, 8, 3, 3, 1};
-        int range = 8; // Range of input values
+        int arr[] = {4, 2, 2, 1, 3, 3, 8};
         System.out.println("Original array:");
         printArray(arr);
-        countingSort(arr, range);
+        countingSort(arr);
         System.out.println("Sorted array:");
         printArray(arr);
     }
