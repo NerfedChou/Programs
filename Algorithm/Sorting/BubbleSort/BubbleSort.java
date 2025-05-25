@@ -1,21 +1,21 @@
 package Algorithm.Sorting;
-
 public class BubbleSort {
-    // This function performs bubble sort
+    
     public static void bubbleSort(int arr[]) {
         int n = arr.length;
         int max = n - 1;
         for (int i = 0; i < max; i++) { 
-            for (int j = 0; j < max  - i; j++) { //Loop through the array
-                if (arr[j] > arr[j + 1]) {//Swap if the element found is greater than the next element
-                    int temp = arr[j]; // Place the value
-                    arr[j] = arr[j + 1]; //Swap the value
-                    arr[j + 1] = temp; //Use the temps value
+            for (int j = 0; j < max - i; j++) { 
+                if (arr[j] > arr[j + 1]) {
+                    int temp = arr[j]; 
+                    arr[j] = arr[j + 1]; 
+                    arr[j + 1] = temp; 
+                
                 }
             }
         }
     }
-    // This function prints the array
+    
 
     public static void printArray(int arr[]) {
         for (int i: arr) 
