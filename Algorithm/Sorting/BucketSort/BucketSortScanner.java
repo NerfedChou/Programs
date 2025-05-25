@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class BucketSortScanner {
@@ -5,42 +7,44 @@ public class BucketSortScanner {
     public static void bucketSort(int arr[]) {
         if (arr.length == 0) return;
 
-        // Find the maximum value in the array
+        // 1) Find the maximum value in the array
         int max = arr[0];
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max) max = arr[i];
         }
 
-        // Set number of buckets to array length (beginner-friendly)
+        // 2) Set number of buckets to array length (beginner-friendly)
         int bucketCount = arr.length;
         int bucketSize = (max / bucketCount) + 1;
 
-        @SuppressWarnings("unchecked")
-        java.util.List<Integer>[] buckets = new java.util.ArrayList[bucketCount];
+        // 3) Create buckets
+        ArrayList<ArrayList<Integer>> buckets = new ArrayList<>();
         for (int i = 0; i < bucketCount; i++) {
-            buckets[i] = new java.util.ArrayList<>();
+            buckets.add(new ArrayList<>());
         }
 
-        // Distribute elements into buckets
+        // 4) Put elements into buckets
         for (int num : arr) {
             int bucketIndex = num / bucketSize;
-            buckets[bucketIndex].add(num);
+            if (bucketIndex >= bucketCount) {
+                bucketIndex = bucketCount - 1; // Handle large values
+            }
+            buckets.get(bucketIndex).add(num);
         }
 
-        // Sort each bucket and concatenate
+        // 5) Sort each bucket and put back into array
         int index = 0;
-        for (java.util.List<Integer> bucket : buckets) {
-            java.util.Collections.sort(bucket);
+        for (ArrayList<Integer> bucket : buckets) {
+            Collections.sort(bucket); // Sort the bucket
             for (int num : bucket) {
-                arr[index++] = num;
+                arr[index++] = num; // Put back into array
             }
         }
     }
 
     public static void printArray(int arr[]) {
-        int n = arr.length;
-        for (int i = 0; i < n; i++)
-            System.out.print(arr[i] + " ");
+        for (int value : arr)
+            System.out.print(value + " ");
         System.out.println();
     }
 
@@ -54,21 +58,19 @@ public class BucketSortScanner {
         do {
             System.out.println("Enter value");
             int val = s.nextInt();
-            arr[i] = val;  
+            arr[i] = val;
             i++;
         } while (i < size);
         s.close();
         return arr;
     }
-    
+
     public static void main(String[] args) {
-        
         int arr[] = Input();
         System.out.println("Original array: ");
         printArray(arr);
         bucketSort(arr);
         System.out.println("Sorted array: ");
         printArray(arr);
-    
     }
 }

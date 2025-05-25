@@ -1,52 +1,49 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class BucketSort {
 
     public static void bucketSort(int arr[], int bucketSize) {
-        if (arr.length == 0) {
-            return;
-        }
+        if (arr.length == 0) return;
 
-        // 1) Create n empty buckets
-        @SuppressWarnings("unchecked")
-        java.util.List<Integer>[] buckets = new java.util.ArrayList[bucketSize];
+        // 1) Create buckets
+        ArrayList<ArrayList<Integer>> buckets = new ArrayList<>();
         for (int i = 0; i < bucketSize; i++) {
-            buckets[i] = new java.util.ArrayList<>();
+            buckets.add(new ArrayList<>());
         }
 
-        // 2) Insert elements into their respective buckets
+        // 2) Put elements into buckets
         for (int num : arr) {
             int bucketIndex = num / bucketSize;
             if (bucketIndex >= bucketSize) {
-                bucketIndex = bucketSize - 1;
+                bucketIndex = bucketSize - 1; // Handle large values
             }
-            buckets[bucketIndex].add(num);
+            buckets.get(bucketIndex).add(num);
         }
 
-        // 3) Sort each bucket and concatenate the result
+        // 3) Sort each bucket and put back into array
         int index = 0;
-        for (java.util.List<Integer> bucket : buckets) {
-            java.util.Collections.sort(bucket);
+        for (ArrayList<Integer> bucket : buckets) {
+            Collections.sort(bucket); // Sort the bucket
             for (int num : bucket) {
-                arr[index++] = num;
+                arr[index++] = num; // Put back into array
             }
         }
     }
 
     public static void printArray(int arr[]) {
-        int n = arr.length;
-        for (int i = 0; i < n; i++)
-            System.out.print(arr[i] + " ");
+        for (int value : arr)
+            System.out.print(value + " ");
         System.out.println();
     }
-    
+
     public static void main(String[] args) {
-        
         int arr[] = { 170, 45, 75, 90, 802, 24, 2, 66 };
-        int bucketSize = 10; // Size of each bucket
+        int bucketSize = 10; // You can change this!
         System.out.println("Original array: ");
         printArray(arr);
         bucketSort(arr, bucketSize);
         System.out.println("Sorted array: ");
         printArray(arr);
-    
     }
 }
