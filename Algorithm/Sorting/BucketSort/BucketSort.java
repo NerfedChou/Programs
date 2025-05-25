@@ -1,41 +1,34 @@
-import java.util.LinkedList;
-import java.util.Collections;
+import java.util.ArrayList;
+
 
 public class BucketSort {
 
     public static void bucketSort(int arr[], int bucketSize) {
-        if (arr.length == 0) return;
-
-        // 1) Find the maximum value in the array
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > max) max = arr[i];
+        if (arr.length == 0) {
+            return;
         }
 
-        // 2) Calculate the number of buckets
-        int bucketCount = (max / bucketSize) + 1;
-
-        // 3) Create buckets
-        LinkedList<LinkedList<Integer>> buckets = new LinkedList<>();
-        for (int i = 0; i < bucketCount; i++) {
-            buckets.add(new LinkedList<>());
+        // 1) Create buckets as an ArrayList of ArrayLists
+        ArrayList<ArrayList<Integer>> buckets = new ArrayList<>();
+        for (int i = 0; i < bucketSize; i++) {
+            buckets.add(new ArrayList<>());
         }
 
-        // 4) Put elements into buckets
+        // 2) Insert elements into their respective buckets
         for (int num : arr) {
             int bucketIndex = num / bucketSize;
-            if (bucketIndex >= bucketCount) {
-                bucketIndex = bucketCount - 1; // Handle large values
+            if (bucketIndex >= bucketSize) {
+                bucketIndex = bucketSize - 1;
             }
             buckets.get(bucketIndex).add(num);
         }
 
-        // 5) Sort each bucket and put back into array
+        // 3) Sort each bucket and concatenate the result
         int index = 0;
-        for (LinkedList<Integer> bucket : buckets) {
-            Collections.sort(bucket); // Sort the bucket
+        for (ArrayList<Integer> bucket : buckets) {
+            Collections.sort(bucket);
             for (int num : bucket) {
-                arr[index++] = num; // Put back into array
+                arr[index++] = num;
             }
         }
     }
@@ -45,10 +38,10 @@ public class BucketSort {
             System.out.print(value + " ");
         System.out.println();
     }
-
+    
     public static void main(String[] args) {
         int arr[] = { 170, 45, 75, 90, 802, 24, 2, 66 };
-        int bucketSize = 10; // You can change this!
+        int bucketSize = 10; // Size of each bucket
         System.out.println("Original array: ");
         printArray(arr);
         bucketSort(arr, bucketSize);

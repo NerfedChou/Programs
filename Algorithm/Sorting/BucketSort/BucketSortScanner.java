@@ -1,5 +1,4 @@
-import java.util.LinkedList;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class BucketSortScanner {
@@ -13,14 +12,14 @@ public class BucketSortScanner {
             if (arr[i] > max) max = arr[i];
         }
 
-        // 2) Set number of buckets to array length 
+        // 2) Set number of buckets to array length (beginner-friendly)
         int bucketCount = arr.length;
         int bucketSize = (max / bucketCount) + 1;
 
-        // 3) Create buckets (LinkedList of LinkedLists)
-        LinkedList<LinkedList<Integer>> buckets = new LinkedList<>();
+        // 3) Create buckets
+        ArrayList<ArrayList<Integer>> buckets = new ArrayList<>();
         for (int i = 0; i < bucketCount; i++) {
-            buckets.add(new LinkedList<>());
+            buckets.add(new ArrayList<>());
         }
 
         // 4) Put elements into buckets
@@ -34,7 +33,7 @@ public class BucketSortScanner {
 
         // 5) Sort each bucket and put back into array
         int index = 0;
-        for (LinkedList<Integer> bucket : buckets) {
+        for (ArrayList<Integer> bucket : buckets) {
             Collections.sort(bucket); // Sort the bucket
             for (int num : bucket) {
                 arr[index++] = num; // Put back into array
