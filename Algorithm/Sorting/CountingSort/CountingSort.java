@@ -1,5 +1,3 @@
-package Algorithm.Sorting;
-
 public class CountingSort {
    
     // Function to perform counting sort
@@ -11,7 +9,7 @@ public class CountingSort {
                 range = arr[i];
             }
         }
-        int output[] = new int[n]; // output array
+      
         int count[] = new int[range + 1]; // count array
 
         // Initialize count array as 0
@@ -25,6 +23,8 @@ public class CountingSort {
         // Change count[i] so that it contains actual position of this digit in output[]
         for (int i = 1; i <= range; i++)
             count[i] += count[i - 1];
+
+        int output[] = new int[n]; // output array
 
         // Build the output array
         for (int i = n - 1; i >= 0; i--) {
