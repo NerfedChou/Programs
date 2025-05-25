@@ -13,7 +13,7 @@ public class BucketSortScanner {
             if (arr[i] > max) max = arr[i];
         }
 
-        // 2) Set number of buckets to array length (beginner-friendly)
+        // 2) Set number of buckets to array length 
         int bucketCount = arr.length;
         int bucketSize = (max / bucketCount) + 1;
 
