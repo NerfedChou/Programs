@@ -33,6 +33,7 @@ public class BubbleSortScanner {
         return arr;
     }
 
+    // Method to print the array
     public static void print(int arr[]) {
         for (int each: arr) {
             System.out.print(each + " ");
