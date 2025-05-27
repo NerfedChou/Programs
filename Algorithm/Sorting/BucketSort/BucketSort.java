@@ -26,7 +26,7 @@ public class BucketSort {
         // 3) Sort each bucket and concatenate the result
         int index = 0;
         for (ArrayList<Integer> bucket : buckets) {
-            Collections.sort(bucket);
+
             for (int num : bucket) {
                 arr[index++] = num;
             }

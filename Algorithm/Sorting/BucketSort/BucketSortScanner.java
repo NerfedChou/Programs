@@ -34,7 +34,7 @@ public class BucketSortScanner {
         // 5) Sort each bucket and put back into array
         int index = 0;
         for (ArrayList<Integer> bucket : buckets) {
-            Collections.sort(bucket); // Sort the bucket
+           java.util.Collections.sort(bucket); // Sort the bucket
             for (int num : bucket) {
                 arr[index++] = num; // Put back into array
             }
