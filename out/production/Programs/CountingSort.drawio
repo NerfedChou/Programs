@@ -1,0 +1,778 @@
+<mxfile host="65bd71144e">
+    <diagram id="0ZF1wBq1yI_rVIPCy_XU" name="Page-1">
+        <mxGraphModel dx="23520" dy="16460" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Visualize representation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="358" y="86" width="146" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="252" y="310" width="946" height="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="The Array" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="687" y="264" width="70" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="44" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="341" y="683" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="341" y="723"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="6" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="303" y="383" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="7" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="469" y="593"/>
+                            <mxPoint x="559" y="593"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="431" y="383" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="559" y="383" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="687" y="383" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="815" y="383" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="943" y="383" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="8" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="1071" y="383" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="On this example&amp;nbsp;&lt;div&gt;you will see how do&amp;nbsp;&lt;/div&gt;&lt;div&gt;Counting sort performs step by step&amp;nbsp;&lt;div&gt;so first we need to find the range&amp;nbsp;&lt;/div&gt;&lt;div&gt;which is the highest or the largest&amp;nbsp;&lt;/div&gt;&lt;div&gt;possible number in the array&amp;nbsp;&lt;/div&gt;&lt;div&gt;so to find it we will use the&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;int range = arr[0];&lt;/div&gt;&lt;div&gt;for (int i = 1; i &amp;lt; n ; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if(arr[i] &amp;gt; range) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; range = arr[i];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="1239" y="304" width="303" height="329" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="330.5" y="352" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="458.5" y="352" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="586.5" y="352" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="714.5" y="352" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="842.5" y="352" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="970.5" y="352" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="1098.5" y="352" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="int &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(71, 218, 255));&quot;&gt;range&lt;/font&gt; = arr[0];" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="283" y="162" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.528;entryY=-0.074;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#47DAFF);jumpStyle=arc;jumpSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="25" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="The range will start its value on&lt;br&gt;index 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="413" y="171.5" width="183" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="for (int i = 1; i &amp;lt; n; i++" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="13" y="288" width="139" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.571;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;strokeColor=light-dark(#000000,#FF6666);jumpStyle=arc;jumpSize=18;" parent="1" source="29" target="17" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="226" y="519" as="sourcePoint"/>
+                        <mxPoint x="475" y="336" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="151" y="318"/>
+                            <mxPoint x="472" y="318"/>
+                            <mxPoint x="472" y="352"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="The &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;i&lt;/font&gt;&amp;nbsp;is initialize to start at 1 so&lt;div&gt;we point to the index 1.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="-11" y="220" width="182" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="37" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="48" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0381" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="37" target="56" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 255, 51));&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="65" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0864" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="if(arr[i] &amp;gt; range)" style="rhombus;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="507" y="723" width="103" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF6666);jumpStyle=arc;jumpSize=24;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="47" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="407" y="640" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="83" y="779"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Do nothing and return to the loop" style="whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="749" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Now we compare&lt;div&gt;&amp;nbsp;the values&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;if arr[j] is greater than&amp;nbsp;&lt;div&gt;our range we will&amp;nbsp;&lt;div&gt;update range to the value of arr[i].&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="458.5" y="848" width="198" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#33FF33);jumpStyle=arc;jumpSize=26;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="56" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="754" y="626"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 255, 51));&quot;&gt;Update the range value&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="67" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6373" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="range = arr[i]" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="691" y="766.5" width="120" height="29" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Loop to all values of array until&amp;nbsp;&lt;br&gt;it founds the Highiest Number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="-143" y="456" width="184" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.571;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;strokeColor=light-dark(#000000,#CC00CC);jumpStyle=arc;jumpSize=18;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="459" y="318" as="sourcePoint"/>
+                        <mxPoint x="601" y="352" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="318"/>
+                            <mxPoint x="600" y="352"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 204));&quot;&gt;Next iteration&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="602" y="319" width="89" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=light-dark(#000000,#33FF33);movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="44" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="84" y="626" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="231" y="626"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="range value" style="whiteSpace=wrap;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="281" y="596" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;h1&gt;Scenarion 1&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="801" y="63" width="154" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Visualize representation&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2407" y="102" width="146" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2301" y="326" width="946" height="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="The Array" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2736" y="280" width="70" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="116" target="105" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2390" y="699" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="2390" y="739"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="79" target="116" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2352" y="399" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="86" target="105" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3160" y="609"/>
+                            <mxPoint x="2608" y="609"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2480" y="399" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2608" y="399" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2736" y="399" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2864" y="399" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2992" y="399" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="8" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3120" y="399" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="Now lets say this scenario that we&amp;nbsp;&lt;div&gt;encounter the index 6 which is 8&lt;br&gt;&lt;br&gt;And since our range is 4&lt;br&gt;It will Update the range to 8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3288" y="320" width="303" height="329" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2379.5" y="368" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2507.5" y="368" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2635.5" y="368" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2763.5" y="368" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2891.5" y="368" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3019.5" y="368" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3147.5" y="368" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="int &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(71, 218, 255));&quot;&gt;range&lt;/font&gt; = arr[0];" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2332" y="178" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" style="edgeStyle=none;html=1;entryX=0.528;entryY=-0.074;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#47DAFF);jumpStyle=arc;jumpSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="95" target="88" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="The range will start its value on&lt;br&gt;index 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2462" y="187.5" width="183" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="for (int i = 1; i &amp;lt; n; i++" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2062" y="304" width="139" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;strokeColor=light-dark(#000000,#FF6666);jumpStyle=arc;jumpSize=18;entryX=0.493;entryY=0.196;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="98" target="94" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2275" y="535" as="sourcePoint"/>
+                        <mxPoint x="2524" y="352" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="The &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;i&lt;/font&gt;&amp;nbsp;is initialize to start at 1 so&lt;div&gt;we point to the index 1.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2038" y="236" width="182" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="105" target="107" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="101" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0381" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="105" target="111" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 255, 51));&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="103" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0864" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="if(arr[i] &amp;gt; range)" style="rhombus;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2556" y="739" width="103" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF6666);jumpStyle=arc;jumpSize=24;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="107" target="98" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2456" y="656" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2132" y="795"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="Do nothing and return to the loop" style="whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2220" y="765" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Now we compare&lt;div&gt;&amp;nbsp;the values&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;if arr[j] is greater than&amp;nbsp;&lt;div&gt;our range we will&amp;nbsp;&lt;div&gt;update range to the value of arr[i].&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2507.5" y="864" width="198" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#33FF33);jumpStyle=arc;jumpSize=26;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="111" target="116" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2803" y="642"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 255, 51));&quot;&gt;Update the range value&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="109" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6373" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="111" value="range = arr[i]" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2740" y="782.5" width="120" height="29" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="Loop to all values of array until&amp;nbsp;&lt;br&gt;it founds the Highiest Number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="1906" y="472" width="184" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=light-dark(#000000,#33FF33);movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="116" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2133" y="642" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2280" y="642"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="range value" style="whiteSpace=wrap;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2330" y="612" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="&lt;h1&gt;Scenarion 2&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2850" y="79" width="154" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="" style="endArrow=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1815" y="2497" as="sourcePoint"/>
+                        <mxPoint x="1815" y="10" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="149" value="&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2257.5" y="1372" width="946" height="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="The Array" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2692.5" y="1326" width="70" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="153" target="179" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2352" y="1623"/>
+                            <mxPoint x="2538" y="1623"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="153" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2308.5" y="1445" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2436.5" y="1445" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2564.5" y="1445" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2692.5" y="1445" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2820.5" y="1445" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2948.5" y="1445" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="160" target="179" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="3117" y="1622"/>
+                            <mxPoint x="2590" y="1622"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="160" value="8" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3076.5" y="1445" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="Now lets say this scenario that we&amp;nbsp;&lt;div&gt;encounter the index 6 which is 8&lt;br&gt;&lt;br&gt;And since our range is 4&lt;br&gt;It will Update the range to 8&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3244.5" y="1366" width="303" height="329" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2336" y="1414" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2464" y="1414" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2592" y="1414" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2720" y="1414" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2848" y="1414" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2976" y="1414" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3104" y="1414" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="int &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(71, 218, 255));&quot;&gt;range&lt;/font&gt; = arr[0];" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2288.5" y="1224" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="for (int i = 1; i &amp;lt; n; i++" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2018.5" y="1350" width="139" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;strokeColor=light-dark(#000000,#FF6666);jumpStyle=arc;jumpSize=18;entryX=0.493;entryY=0.196;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="172" target="168" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2231.5" y="1581" as="sourcePoint"/>
+                        <mxPoint x="2480.5" y="1398" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="174" value="The &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;i&lt;/font&gt;&amp;nbsp;is initialize to start at 1 so&lt;div&gt;we point to the index 1.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="1994.5" y="1282" width="182" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="179" target="181" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 102, 102));&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="175" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0381" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="177" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="179" target="185" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(51, 255, 51));&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="177" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0864" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="179" value="if(arr[i] &amp;gt; range)" style="rhombus;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2512.5" y="1785" width="103" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF6666);jumpStyle=arc;jumpSize=24;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="181" target="172" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2412.5" y="1702" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2088.5" y="1841"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="181" value="Do nothing and return to the loop" style="whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2176.5" y="1811" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="Since the condittion is true&lt;br&gt;We will update the range value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2472" y="1939" width="182" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="185" target="187" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="range = arr[i]" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2796.5" y="1828.5" width="120" height="29" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=light-dark(#000000,#33FF33);movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;jumpStyle=arc;jumpSize=13;" parent="1" source="187" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2089.5" y="1688" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2236.5" y="1688"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="187" value="range value" style="whiteSpace=wrap;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3056.5" y="1666" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2874.5" y="1125" width="18" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2296.5" y="2192" width="946" height="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2347.5" y="2265" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2475.5" y="2265" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2603.5" y="2265" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2731.5" y="2265" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2859.5" y="2265" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2987.5" y="2265" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" source="201" target="210" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="8" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3115.5" y="2265" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2375" y="2234" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2503" y="2234" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2631" y="2234" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2759" y="2234" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2887" y="2234" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3015" y="2234" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3143" y="2234" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="range value" style="whiteSpace=wrap;html=1;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="3095.5" y="2471" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="Range value updated" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2929.5" y="2471" width="132" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="Since the Loop cant continue anymore&lt;br&gt;our largest value is 8&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="2660" y="2145" width="223" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="-197" y="2585" width="3760" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="-2" y="3007" width="1218" height="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="49" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="177" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="433" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="561" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="225" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="689" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="817" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="76.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="228" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="204.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="332.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="460.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="588.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="716.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="844.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="For this step we are now creating the range which is the possible numbers that can be stored.&lt;br&gt;Right now our range has 8 which we will need to add 1 to store 9 possible values.&lt;br&gt;&lt;br&gt;So your asking why 9? in programs 0 count as 1 if we dont add 1 which means the last number will not be counted&lt;br&gt;since we count index 0 as 1 then&amp;nbsp; we will miss the last item since we didnt store created a space for the zero index.&lt;br&gt;&lt;br&gt;So we have the maximum of 8 now we dont know if the array has valuie of 0 so we generaly expect that the input or the given value has&amp;nbsp;&lt;br&gt;and index with a value of 0 and now if we count from 0 as 1 and we dont add one slot for 0&lt;br&gt;&lt;br&gt;this will happen&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Index Count&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;0&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;1&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;3&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;4&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;5&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;6&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;7&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;and boom we only stop at 7&amp;nbsp;&lt;/span&gt;&lt;div&gt;because the index reached its maximum count which is 8 which is we lack a slot to store the last number&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="3176.5" y="2904" width="900" height="667" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="Slot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="3273" y="3214" width="39" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="239" target="219">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="239" target="219">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1216" y="2766"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="239" value="int count[] = new int[range +1];" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="-98" y="2721" width="191" height="89" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="957" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="984.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1098.5" y="3080" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="9" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1123.5" y="3049" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="266" value="The count array is created with range + 1 slots so that every possible value from 0 up to the maximum value (range) has its own index in the array" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="157" y="2726" width="791" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="268" value="Index" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="3618" y="3214" width="47" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="287" value="&amp;nbsp; &amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1602.5" y="3510" width="1218" height="226" as="geometry"/>
+                </mxCell>
+                <mxCell id="323" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="288">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1693" y="3910" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="288" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1653.5" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="289">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1822" y="3910" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="289" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1781.5" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="290">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1949.5" y="3908.2857142857147" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="290" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1909.5" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="326" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="291">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2077.5" y="3908.2857142857147" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="291" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2037.5" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="327" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="292">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2205.5" y="3908.2857142857147" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="292" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2165.5" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="293">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2334" y="3913" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="293" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2293.5" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="330" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="294">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2461.5" y="3908.2857142857147" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="294" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2421.5" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="295" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1681" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="296" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1809" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="297" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1937" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="298" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2065" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="299" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2193" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="300" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2321" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="301" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2449" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="331" style="edgeStyle=none;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="302">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2601.5" y="3908.2857142857147" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="302" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2561.5" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" value="8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2589" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="322" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="304" target="306">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="2743" y="3910"/>
+                            <mxPoint x="1404" y="3910"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="304" value="0" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2703" y="3583" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="305" value="9" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2728" y="3552" width="25" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="312" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.557;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="299">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2230" y="3287" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2207" y="2824"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="314" style="edgeStyle=orthogonalEdgeStyle;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="301">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="316" style="edgeStyle=orthogonalEdgeStyle;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="305">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" value="for (int i = 0; i &amp;lt; range + 1; i++)&amp;nbsp;&lt;div&gt;count[i] = 0;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="1295" y="2734" width="217.5" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.555;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="295">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="308" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.518;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="296">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="309" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.57;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="297">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1951" y="2824"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="311" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.548;entryY=-0.104;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="298">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="313" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.53;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="300">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="315" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.7;entryY=-0.077;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="306" target="303">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" value="We initialize thier values as zeros at first&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+                    <mxGeometry x="2030" y="4019" width="402" height="214" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,4 +1,4 @@
-public class MErgeSort {
+public class MergeSort {
     public void sort(int[] arr, int left, int right) {
         if (left < right) {
             
@@ -59,7 +59,7 @@ public class MErgeSort {
    
     public static void main(String[] args) {
         int[] arr = { 12, 11, 13, 5, 6, 7 };
-        MErgeSort ob = new MErgeSort();
+        MergeSort ob = new MergeSort();
         ob.sort(arr, 0, arr.length - 1);
 
         System.out.println("Sorted array:");
