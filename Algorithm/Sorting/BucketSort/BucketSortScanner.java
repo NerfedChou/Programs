@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class BucketSortScanner {
 
-    public static void bucketSort(int arr[]) {
+    public static void bucketSort(int[] arr) {
         if (arr.length == 0) return;
 
         // 1) Find the maximum value in the array
@@ -41,21 +41,22 @@ public class BucketSortScanner {
         }
     }
 
-    public static void printArray(int arr[]) {
+    public static void printArray(int[] arr) {
         for (int value : arr)
             System.out.print(value + " ");
+
         System.out.println();
     }
 
     public static int[] Input() {
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter Size: ");
+        System.out.print("Enter Size: ");
         int size = s.nextInt();
         int arr[] = new int[size];
         int i = 0;
 
         do {
-            System.out.println("Enter value");
+            System.out.print("Enter value: ");
             int val = s.nextInt();
             arr[i] = val;
             i++;
